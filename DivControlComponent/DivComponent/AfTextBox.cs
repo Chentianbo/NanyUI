@@ -57,10 +57,24 @@ namespace DivControlComponent.DivComponent
         //    this.ResumeLayout(false);
         //    this.PerformLayout();
         //}
+        [Browsable(true)]//是否显示属性 默认true
+        [Category("Appearance")]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
+        [Description("文本框")]
+        public override string Text
+        {
+            get { return this.Edit.Text; }
+            set { this.Edit.Text = value; }
+        }
 
-        //public override string Text {
+        //[Browsable(true)]//是否显示属性 默认true
+        //[Category("Appearance")]
+        //[DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
+        //[Description("文本框")]
+        //public string AfText
+        //{
         //    get { return this.Edit.Text; }
-        //    set { this.Text = value; }
+        //    set { this.Edit.Text = value; }
         //}
     }
 }

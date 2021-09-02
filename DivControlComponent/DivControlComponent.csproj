@@ -55,6 +55,61 @@
     <Compile Include="DivComponent\SearchBox.Designer.cs">
       <DependentUpon>SearchBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="DivComponent\UCircle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DivComponent\UCircle.designer.cs">
+      <DependentUpon>UCircle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DivComponent\UCircleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DivComponent\UCircleButton.designer.cs">
+      <DependentUpon>UCircleButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DivComponent\UIconButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DivComponent\UIconButton.designer.cs">
+      <DependentUpon>UIconButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DivComponent\UIndicatorLight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DivComponent\UIndicatorLight.designer.cs">
+      <DependentUpon>UIndicatorLight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DivComponent\UMenuButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DivComponent\UMenuButton.designer.cs">
+      <DependentUpon>UMenuButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DivComponent\UPageButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DivComponent\UPageButton.designer.cs">
+      <DependentUpon>UPageButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DivComponent\UPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DivComponent\UPanel.designer.cs">
+      <DependentUpon>UPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DivComponent\UStoreRegionArgs.cs" />
+    <Compile Include="DivComponent\UStoreRegionBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DivComponent\UStoreRegionBox.designer.cs">
+      <DependentUpon>UStoreRegionBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DivComponent\UThermometer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DivComponent\UThermometer.designer.cs">
+      <DependentUpon>UThermometer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -68,6 +123,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DivComponent\SearchBox.resx">
       <DependentUpon>SearchBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DivComponent\UCircle.resx">
+      <DependentUpon>UCircle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DivComponent\UCircleButton.resx">
+      <DependentUpon>UCircleButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DivComponent\UIndicatorLight.resx">
+      <DependentUpon>UIndicatorLight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DivComponent\UMenuButton.resx">
+      <DependentUpon>UMenuButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DivComponent\UPageButton.resx">
+      <DependentUpon>UPageButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DivComponent\UPanel.resx">
+      <DependentUpon>UPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DivComponent\UStoreRegionBox.resx">
+      <DependentUpon>UStoreRegionBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DivComponent\UThermometer.resx">
+      <DependentUpon>UThermometer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

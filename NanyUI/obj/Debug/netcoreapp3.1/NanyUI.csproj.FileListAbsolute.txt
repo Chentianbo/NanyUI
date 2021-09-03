@@ -1,0 +1,15 @@
+E:\ChenTianBo\div-control-component\NanyUI\bin\Debug\netcoreapp3.1\NanyUI.deps.json
+E:\ChenTianBo\div-control-component\NanyUI\bin\Debug\netcoreapp3.1\NanyUI.dll
+E:\ChenTianBo\div-control-component\NanyUI\bin\Debug\netcoreapp3.1\NanyUI.pdb
+E:\ChenTianBo\div-control-component\NanyUI\obj\Debug\netcoreapp3.1\NanyUI.NI_Circle.resources
+E:\ChenTianBo\div-control-component\NanyUI\obj\Debug\netcoreapp3.1\NanyUI.NI_CircleButton.resources
+E:\ChenTianBo\div-control-component\NanyUI\obj\Debug\netcoreapp3.1\NanyUI.NI_IndicatorLight.resources
+E:\ChenTianBo\div-control-component\NanyUI\obj\Debug\netcoreapp3.1\NanyUI.NI_Panel.resources
+E:\ChenTianBo\div-control-component\NanyUI\obj\Debug\netcoreapp3.1\NanyUI.NI_Thermometer.resources
+E:\ChenTianBo\div-control-component\NanyUI\obj\Debug\netcoreapp3.1\NanyUI.csproj.GenerateResource.cache
+E:\ChenTianBo\div-control-component\NanyUI\obj\Debug\netcoreapp3.1\NanyUI.GeneratedMSBuildEditorConfig.editorconfig
+E:\ChenTianBo\div-control-component\NanyUI\obj\Debug\netcoreapp3.1\NanyUI.AssemblyInfoInputs.cache
+E:\ChenTianBo\div-control-component\NanyUI\obj\Debug\netcoreapp3.1\NanyUI.AssemblyInfo.cs
+E:\ChenTianBo\div-control-component\NanyUI\obj\Debug\netcoreapp3.1\NanyUI.csproj.CoreCompileInputs.cache
+E:\ChenTianBo\div-control-component\NanyUI\obj\Debug\netcoreapp3.1\NanyUI.dll
+E:\ChenTianBo\div-control-component\NanyUI\obj\Debug\netcoreapp3.1\NanyUI.pdb

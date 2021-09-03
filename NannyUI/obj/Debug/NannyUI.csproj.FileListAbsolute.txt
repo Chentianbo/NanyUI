@@ -1,0 +1,6 @@
+E:\ChenTianBo\div-control-component\NannyUI\bin\Debug\NannyUI.dll
+E:\ChenTianBo\div-control-component\NannyUI\bin\Debug\NannyUI.pdb
+E:\ChenTianBo\div-control-component\NannyUI\obj\Debug\NannyUI.csproj.AssemblyReference.cache
+E:\ChenTianBo\div-control-component\NannyUI\obj\Debug\NannyUI.csproj.CoreCompileInputs.cache
+E:\ChenTianBo\div-control-component\NannyUI\obj\Debug\NannyUI.dll
+E:\ChenTianBo\div-control-component\NannyUI\obj\Debug\NannyUI.pdb

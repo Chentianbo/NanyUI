@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B2FC5BEA-76D4-498E-B3D3-9C3149E22172}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NannyUI</RootNamespace>
+    <AssemblyName>NannyUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\NI_AlertBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_Button.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_CheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_Circle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_Circle.designer.cs">
+      <DependentUpon>NI_Circle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NI_CircleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_CircleButton.designer.cs">
+      <DependentUpon>NI_CircleButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NI_ComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_ContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_DatePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_GroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_IconButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_IconButton.designer.cs">
+      <DependentUpon>NI_IconButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NI_IndicatorLight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_IndicatorLight.designer.cs">
+      <DependentUpon>NI_IndicatorLight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NI_NumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_Panel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_Panel.designer.cs">
+      <DependentUpon>NI_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NI_PictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_ProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_RadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_RoundButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_RoundProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_SimpleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_SliderBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_StatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_Switch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_TabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_TextArea.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_TextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_Thermometer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NI_Thermometer.designer.cs">
+      <DependentUpon>NI_Thermometer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NI_Toggle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EnumData\ButtonType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tool\DrawHelper.cs" />
+    <Compile Include="Tool\MouseStatus.cs" />
+    <Compile Include="Tool\PaintCommon.cs" />
+    <Compile Include="Tool\StringAlign.cs" />
+    <Compile Include="Tool\ThemeColor.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\NI_Circle.resx">
+      <DependentUpon>NI_Circle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NI_CircleButton.resx">
+      <DependentUpon>NI_CircleButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NI_IndicatorLight.resx">
+      <DependentUpon>NI_IndicatorLight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NI_Panel.resx">
+      <DependentUpon>NI_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NI_Thermometer.resx">
+      <DependentUpon>NI_Thermometer.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -8,13 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
-using System.Data.Common;
 
-namespace DivControlComponent.DivComponent
+namespace NanyUICore
 {
-        public partial class UCircleButton : Button
+        public partial class NI_CircleButton : Button
         {
-                public UCircleButton()
+                public NI_CircleButton()
                 {
                         InitializeComponent();
                 }

@@ -99,12 +99,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DivControlComponent\DivControlComponent.csproj">
-      <Project>{A48920AA-8D6A-438C-B9E7-8B8DF3A4A1AF}</Project>
-      <Name>DivControlComponent</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\smallfile.png" />
   </ItemGroup>
   <ItemGroup>
@@ -115,6 +109,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bigfileinfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NannyUI\NanyUI.csproj">
+      <Project>{B2FC5BEA-76D4-498E-B3D3-9C3149E22172}</Project>
+      <Name>NanyUI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

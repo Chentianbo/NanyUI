@@ -43,6 +43,70 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\ButtonType.cs" />
+    <Compile Include="Controls\CxFlatAlertBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatDatePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatRoundButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatRoundProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatSimpleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatSliderBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatStatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatSwitch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatTextArea.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CxFlatToggle.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="DivComponent\AfTextBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -116,8 +180,15 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Tool\DrawHelper.cs" />
+    <Compile Include="Tool\MouseStatus.cs" />
+    <Compile Include="Tool\StringAlign.cs" />
+    <Compile Include="Tool\ThemeColor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Controls\CxFlatComboBox.resx">
+      <DependentUpon>CxFlatComboBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DivComponent\AfTextBox.resx">
       <DependentUpon>AfTextBox.cs</DependentUpon>
     </EmbeddedResource>

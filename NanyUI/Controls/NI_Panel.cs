@@ -10,12 +10,12 @@ using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 using System.Data.Common;
 
-namespace DivControlComponent.DivComponent
+namespace NanyUICore
 {
-        public partial class UPanel : Panel
+        public partial class NI_Panel : Panel
         {
                 private const int WM_PAINT = 0xF;
-                public UPanel()
+                public NI_Panel()
                 {
                         InitializeComponent();
                 }

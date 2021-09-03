@@ -1,0 +1,101 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Controls\NI_Toggle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_TextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_TextArea.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_TabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_Switch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_StatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_SliderBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_SimpleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_RoundProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_RoundButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_RadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_ProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_PictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_NumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_GroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_DatePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_ContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_ComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_CheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_Button.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_AlertBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_Circle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_Circle.designer.cs">
+      <DependentUpon>NI_Circle.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\NI_CircleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_IconButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_IconButton.designer.cs">
+      <DependentUpon>NI_IconButton.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\NI_IndicatorLight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_IndicatorLight.designer.cs">
+      <DependentUpon>NI_IndicatorLight.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\NI_Panel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\NI_Thermometer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>

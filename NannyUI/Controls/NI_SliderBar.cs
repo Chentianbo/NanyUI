@@ -156,7 +156,7 @@ namespace NanyUI
             SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint | ControlStyles.ResizeRedraw | ControlStyles.OptimizedDoubleBuffer, true);
             DoubleBuffered = true;
             Height = 45;
-            Font = new Font("Segoe UI", 8F);
+            Font = new Font("NanyUI", 8F);
         }
     }
 }

@@ -113,7 +113,7 @@ namespace NanyUI
         {
             SizeAnimationTimer.Tick += new EventHandler(AnimationTick);
             DoubleBuffered = true;
-            Font = new Font("Segoe UI", 12);
+            Font = new Font("NanyUI", 12);
         }
     }
 }

@@ -16,7 +16,6 @@ E:\ChenTianBo\div-control-component\NanyUI\obj\Debug\netcoreapp3.1\NanyUICore.NI
 E:\ChenTianBo\NanyUI\NanyUI\bin\Debug\netcoreapp3.1\NanyUICore3.1.deps.json
 E:\ChenTianBo\NanyUI\NanyUI\bin\Debug\netcoreapp3.1\NanyUICore3.1.dll
 E:\ChenTianBo\NanyUI\NanyUI\bin\Debug\netcoreapp3.1\NanyUICore3.1.pdb
-E:\ChenTianBo\NanyUI\NanyUI\obj\Debug\netcoreapp3.1\NanyUICore3.1.csproj.AssemblyReference.cache
 E:\ChenTianBo\NanyUI\NanyUI\obj\Debug\netcoreapp3.1\NanyUICore.NI_Circle.resources
 E:\ChenTianBo\NanyUI\NanyUI\obj\Debug\netcoreapp3.1\NanyUICore.NI_CircleButton.resources
 E:\ChenTianBo\NanyUI\NanyUI\obj\Debug\netcoreapp3.1\NanyUICore.NI_IndicatorLight.resources

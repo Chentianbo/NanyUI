@@ -37,6 +37,7 @@ namespace WinFormsApp1
             this.nI_Circle2 = new NanyUICore.NI_Circle();
             this.nI_CircleButton1 = new NanyUICore.NI_CircleButton();
             this.nI_GroupBox1 = new NanyUICore.NI_GroupBox();
+            this.nI_SimpleButton1 = new NanyUICore.NI_SimpleButton();
             this.nI_RadioButton1 = new NanyUICore.NI_RadioButton();
             this.nI_StatusBar1 = new NanyUICore.NI_StatusBar();
             this.nI_SliderBar1 = new NanyUICore.NI_SliderBar();
@@ -50,6 +51,9 @@ namespace WinFormsApp1
             this.nI_TabControl1 = new NanyUICore.NI_TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.nI_Toggle2 = new NanyUICore.NI_Toggle();
             this.nI_Thermometer1 = new NanyUICore.NI_Thermometer();
             this.nI_Switch1 = new NanyUICore.NI_Switch();
@@ -58,7 +62,12 @@ namespace WinFormsApp1
             this.nI_NumericUpDown1 = new NanyUICore.NI_NumericUpDown();
             this.nI_Circle3 = new NanyUICore.NI_Circle();
             this.nI_Circle4 = new NanyUICore.NI_Circle();
+            this.nI_ComboBox2 = new NanyUICore.NI_ComboBox();
+            this.nI_Circle5 = new NanyUICore.NI_Circle();
+            this.nI_IconButton2 = new NanyUICore.NI_IconButton();
+            this.nI_TextArea1 = new NanyUICore.NI_TextArea();
             ((System.ComponentModel.ISupportInitialize)(this.nI_PictureBox1)).BeginInit();
+            this.nI_GroupBox1.SuspendLayout();
             this.nI_TabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -83,7 +92,7 @@ namespace WinFormsApp1
             // nI_Button1
             // 
             this.nI_Button1.ButtonType = NanyUICore.ButtonType.Primary;
-            this.nI_Button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nI_Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nI_Button1.Location = new System.Drawing.Point(94, 280);
             this.nI_Button1.Name = "nI_Button1";
             this.nI_Button1.Size = new System.Drawing.Size(191, 53);
@@ -94,10 +103,10 @@ namespace WinFormsApp1
             // nI_CheckBox1
             // 
             this.nI_CheckBox1.AutoSize = true;
-            this.nI_CheckBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nI_CheckBox1.Location = new System.Drawing.Point(413, 280);
+            this.nI_CheckBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nI_CheckBox1.Location = new System.Drawing.Point(349, 291);
             this.nI_CheckBox1.Name = "nI_CheckBox1";
-            this.nI_CheckBox1.Size = new System.Drawing.Size(130, 20);
+            this.nI_CheckBox1.Size = new System.Drawing.Size(137, 20);
             this.nI_CheckBox1.TabIndex = 3;
             this.nI_CheckBox1.Text = "nI_CheckBox1";
             this.nI_CheckBox1.UseVisualStyleBackColor = true;
@@ -134,7 +143,8 @@ namespace WinFormsApp1
             // 
             // nI_GroupBox1
             // 
-            this.nI_GroupBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nI_GroupBox1.Controls.Add(this.nI_SimpleButton1);
+            this.nI_GroupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nI_GroupBox1.Location = new System.Drawing.Point(157, 417);
             this.nI_GroupBox1.Name = "nI_GroupBox1";
             this.nI_GroupBox1.ShowText = false;
@@ -144,14 +154,25 @@ namespace WinFormsApp1
             this.nI_GroupBox1.Text = "nI_GroupBox1";
             this.nI_GroupBox1.ThemeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
             // 
+            // nI_SimpleButton1
+            // 
+            this.nI_SimpleButton1.ButtonType = NanyUICore.ButtonType.Primary;
+            this.nI_SimpleButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nI_SimpleButton1.Location = new System.Drawing.Point(-41, 0);
+            this.nI_SimpleButton1.Name = "nI_SimpleButton1";
+            this.nI_SimpleButton1.Size = new System.Drawing.Size(138, 36);
+            this.nI_SimpleButton1.TabIndex = 27;
+            this.nI_SimpleButton1.Text = "nI_SimpleButton1";
+            this.nI_SimpleButton1.TextColor = System.Drawing.Color.White;
+            // 
             // nI_RadioButton1
             // 
             this.nI_RadioButton1.AutoSize = true;
             this.nI_RadioButton1.CheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
-            this.nI_RadioButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nI_RadioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nI_RadioButton1.Location = new System.Drawing.Point(653, 537);
             this.nI_RadioButton1.Name = "nI_RadioButton1";
-            this.nI_RadioButton1.Size = new System.Drawing.Size(150, 20);
+            this.nI_RadioButton1.Size = new System.Drawing.Size(153, 20);
             this.nI_RadioButton1.TabIndex = 8;
             this.nI_RadioButton1.TabStop = true;
             this.nI_RadioButton1.Text = "nI_RadioButton1";
@@ -161,7 +182,7 @@ namespace WinFormsApp1
             // 
             this.nI_StatusBar1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.nI_StatusBar1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nI_StatusBar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nI_StatusBar1.Location = new System.Drawing.Point(0, 0);
             this.nI_StatusBar1.Name = "nI_StatusBar1";
             this.nI_StatusBar1.Size = new System.Drawing.Size(974, 40);
@@ -171,7 +192,7 @@ namespace WinFormsApp1
             // 
             // nI_SliderBar1
             // 
-            this.nI_SliderBar1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nI_SliderBar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nI_SliderBar1.Location = new System.Drawing.Point(702, 460);
             this.nI_SliderBar1.MaxValue = 10;
             this.nI_SliderBar1.MinValue = 0;
@@ -185,7 +206,7 @@ namespace WinFormsApp1
             // 
             // nI_TextBox1
             // 
-            this.nI_TextBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nI_TextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nI_TextBox1.Hint = "";
             this.nI_TextBox1.Location = new System.Drawing.Point(379, 595);
             this.nI_TextBox1.MaxLength = 32767;
@@ -250,7 +271,7 @@ namespace WinFormsApp1
             // 
             // nI_RoundProgressBar1
             // 
-            this.nI_RoundProgressBar1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.nI_RoundProgressBar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nI_RoundProgressBar1.IsError = false;
             this.nI_RoundProgressBar1.Location = new System.Drawing.Point(615, 631);
             this.nI_RoundProgressBar1.Name = "nI_RoundProgressBar1";
@@ -263,10 +284,10 @@ namespace WinFormsApp1
             // 
             this.nI_RadioButton2.AutoSize = true;
             this.nI_RadioButton2.CheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
-            this.nI_RadioButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nI_RadioButton2.Location = new System.Drawing.Point(394, 398);
+            this.nI_RadioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nI_RadioButton2.Location = new System.Drawing.Point(349, 332);
             this.nI_RadioButton2.Name = "nI_RadioButton2";
-            this.nI_RadioButton2.Size = new System.Drawing.Size(150, 20);
+            this.nI_RadioButton2.Size = new System.Drawing.Size(153, 20);
             this.nI_RadioButton2.TabIndex = 17;
             this.nI_RadioButton2.TabStop = true;
             this.nI_RadioButton2.Text = "nI_RadioButton2";
@@ -276,7 +297,10 @@ namespace WinFormsApp1
             // 
             this.nI_TabControl1.Controls.Add(this.tabPage1);
             this.nI_TabControl1.Controls.Add(this.tabPage2);
-            this.nI_TabControl1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nI_TabControl1.Controls.Add(this.tabPage3);
+            this.nI_TabControl1.Controls.Add(this.tabPage4);
+            this.nI_TabControl1.Controls.Add(this.tabPage5);
+            this.nI_TabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nI_TabControl1.ItemSize = new System.Drawing.Size(120, 40);
             this.nI_TabControl1.Location = new System.Drawing.Point(507, 115);
             this.nI_TabControl1.Name = "nI_TabControl1";
@@ -305,6 +329,36 @@ namespace WinFormsApp1
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(0, 40);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(410, 362);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(0, 40);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(410, 362);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "tabPage4";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(0, 40);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(410, 362);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "tabPage5";
+            this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // nI_Toggle2
             // 
@@ -366,7 +420,7 @@ namespace WinFormsApp1
             // 
             // nI_SliderBar2
             // 
-            this.nI_SliderBar2.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nI_SliderBar2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nI_SliderBar2.Location = new System.Drawing.Point(433, 531);
             this.nI_SliderBar2.MaxValue = 10;
             this.nI_SliderBar2.MinValue = 0;
@@ -380,7 +434,7 @@ namespace WinFormsApp1
             // 
             // nI_RoundProgressBar2
             // 
-            this.nI_RoundProgressBar2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.nI_RoundProgressBar2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nI_RoundProgressBar2.IsError = false;
             this.nI_RoundProgressBar2.Location = new System.Drawing.Point(726, 602);
             this.nI_RoundProgressBar2.Name = "nI_RoundProgressBar2";
@@ -391,7 +445,7 @@ namespace WinFormsApp1
             // 
             // nI_NumericUpDown1
             // 
-            this.nI_NumericUpDown1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nI_NumericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nI_NumericUpDown1.Location = new System.Drawing.Point(134, 241);
             this.nI_NumericUpDown1.MaxNum = 10F;
             this.nI_NumericUpDown1.MinNum = 0F;
@@ -418,11 +472,68 @@ namespace WinFormsApp1
             this.nI_Circle4.Size = new System.Drawing.Size(30, 30);
             this.nI_Circle4.TabIndex = 26;
             // 
+            // nI_ComboBox2
+            // 
+            this.nI_ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.nI_ComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.nI_ComboBox2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nI_ComboBox2.FormattingEnabled = true;
+            this.nI_ComboBox2.ItemHeight = 30;
+            this.nI_ComboBox2.Location = new System.Drawing.Point(116, 199);
+            this.nI_ComboBox2.Name = "nI_ComboBox2";
+            this.nI_ComboBox2.Size = new System.Drawing.Size(186, 36);
+            this.nI_ComboBox2.TabIndex = 27;
+            // 
+            // nI_Circle5
+            // 
+            this.nI_Circle5.ForeColor = System.Drawing.Color.Maroon;
+            this.nI_Circle5.Location = new System.Drawing.Point(34, 180);
+            this.nI_Circle5.Name = "nI_Circle5";
+            this.nI_Circle5.Size = new System.Drawing.Size(21, 22);
+            this.nI_Circle5.TabIndex = 28;
+            // 
+            // nI_IconButton2
+            // 
+            this.nI_IconButton2.BackColor = System.Drawing.Color.Transparent;
+            this.nI_IconButton2.FlatAppearance.BorderSize = 0;
+            this.nI_IconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.nI_IconButton2.Font = new System.Drawing.Font("Webdings", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nI_IconButton2.ForeColor = System.Drawing.Color.Silver;
+            this.nI_IconButton2.Location = new System.Drawing.Point(379, 730);
+            this.nI_IconButton2.Name = "nI_IconButton2";
+            this.nI_IconButton2.Size = new System.Drawing.Size(438, 44);
+            this.nI_IconButton2.TabIndex = 29;
+            this.nI_IconButton2.Text = "nI_IconButton2";
+            this.nI_IconButton2.UseVisualStyleBackColor = false;
+            // 
+            // nI_TextArea1
+            // 
+            this.nI_TextArea1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nI_TextArea1.Hint = "";
+            this.nI_TextArea1.Location = new System.Drawing.Point(86, 713);
+            this.nI_TextArea1.MaxLength = 32767;
+            this.nI_TextArea1.Multiline = true;
+            this.nI_TextArea1.Name = "nI_TextArea1";
+            this.nI_TextArea1.PasswordChar = '\0';
+            this.nI_TextArea1.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.nI_TextArea1.SelectedText = "";
+            this.nI_TextArea1.SelectionLength = 0;
+            this.nI_TextArea1.SelectionStart = 0;
+            this.nI_TextArea1.Size = new System.Drawing.Size(203, 73);
+            this.nI_TextArea1.TabIndex = 30;
+            this.nI_TextArea1.TabStop = false;
+            this.nI_TextArea1.Text = "nI_TextArea1";
+            this.nI_TextArea1.UseSystemPasswordChar = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(974, 798);
+            this.Controls.Add(this.nI_TextArea1);
+            this.Controls.Add(this.nI_IconButton2);
+            this.Controls.Add(this.nI_Circle5);
+            this.Controls.Add(this.nI_ComboBox2);
             this.Controls.Add(this.nI_Circle4);
             this.Controls.Add(this.nI_Circle3);
             this.Controls.Add(this.nI_NumericUpDown1);
@@ -456,6 +567,7 @@ namespace WinFormsApp1
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.nI_PictureBox1)).EndInit();
+            this.nI_GroupBox1.ResumeLayout(false);
             this.nI_TabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -493,6 +605,14 @@ namespace WinFormsApp1
         private NanyUICore.NI_NumericUpDown nI_NumericUpDown1;
         private NanyUICore.NI_Circle nI_Circle3;
         private NanyUICore.NI_Circle nI_Circle4;
+        private NanyUICore.NI_SimpleButton nI_SimpleButton1;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.TabPage tabPage5;
+        private NanyUICore.NI_ComboBox nI_ComboBox2;
+        private NanyUICore.NI_Circle nI_Circle5;
+        private NanyUICore.NI_IconButton nI_IconButton2;
+        private NanyUICore.NI_TextArea nI_TextArea1;
     }
 }
 

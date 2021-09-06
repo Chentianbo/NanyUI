@@ -21,3 +21,6 @@ E:\ChenTianBo\NanyUI\NannyUI\obj\Debug\NanyUI.csproj.GenerateResource.cache
 E:\ChenTianBo\NanyUI\NannyUI\obj\Debug\NanyUI.csproj.CoreCompileInputs.cache
 E:\ChenTianBo\NanyUI\NannyUI\obj\Debug\NannyUI.dll
 E:\ChenTianBo\NanyUI\NannyUI\obj\Debug\NannyUI.pdb
+E:\ChenTianBo\NanyUI\NannyUI\bin\Debug\Castle.Core.dll
+E:\ChenTianBo\NanyUI\NannyUI\bin\Debug\Castle.Core.xml
+E:\ChenTianBo\NanyUI\NannyUI\obj\Debug\NanyUI.csproj.CopyComplete

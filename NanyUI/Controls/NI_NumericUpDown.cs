@@ -176,8 +176,8 @@ namespace NanyUICore
                     graphics.DrawLine(new Pen(ThemeColors.PlaceholderText, 0.5f), textBox.Location.X + textBox.Width + 0.5f, Height/2, Width - 1, Height/2);
                     break;
             }
-            graphics.DrawString("+", new Font("Segoe UI", 14f), new SolidBrush((upRectangleF.Contains(mousePoint) && enterFlag) ? ThemeColors.PrimaryColor : ThemeColors.SecondaryText), upRectangleF, StringAlign.Center);
-            graphics.DrawString("-", new Font("Segoe UI", 14f), new SolidBrush((downRectangleF.Contains(mousePoint) && enterFlag) ? ThemeColors.PrimaryColor : ThemeColors.SecondaryText), downRectangleF, StringAlign.Center);
+            graphics.DrawString("+", new Font("NanyUI", 14f), new SolidBrush((upRectangleF.Contains(mousePoint) && enterFlag) ? ThemeColors.PrimaryColor : ThemeColors.SecondaryText), upRectangleF, StringAlign.Center);
+            graphics.DrawString("-", new Font("NanyUI", 14f), new SolidBrush((downRectangleF.Contains(mousePoint) && enterFlag) ? ThemeColors.PrimaryColor : ThemeColors.SecondaryText), downRectangleF, StringAlign.Center);
             graphics.DrawLine(new Pen(ThemeColors.PlaceholderText, 0.5f), textBox.Location.X + textBox.Width + 0.5f, 1, textBox.Location.X + textBox.Width + 0.5f, Height - 1);
             graphics.FillRectangle(new SolidBrush(Color.White), textBox.Location.X, 1, textBox.Width, Height - 2);
             base.Controls.Add(textBox);
@@ -187,7 +187,7 @@ namespace NanyUICore
         {
             SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint | ControlStyles.ResizeRedraw | ControlStyles.OptimizedDoubleBuffer | ControlStyles.SupportsTransparentBackColor, true);
             DoubleBuffered = true;
-            Font = new Font("Segoe UI", 12);
+            Font = new Font("NanyUI", 12);
 
             Width = 120;
             Height = 30;

@@ -243,7 +243,7 @@ namespace NanyUI
         {
             SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint | ControlStyles.ResizeRedraw | ControlStyles.OptimizedDoubleBuffer | ControlStyles.SupportsTransparentBackColor, true);
             DoubleBuffered = true;
-            Font = new Font("Segoe UI", 12);
+            Font = new Font("NanyUI", 12);
             Height = 40;
             Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top;
         }

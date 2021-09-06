@@ -44,7 +44,7 @@ namespace NanyUI
         {
             SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint | ControlStyles.ResizeRedraw | ControlStyles.OptimizedDoubleBuffer, true);
             DoubleBuffered = true;
-            Font = new Font("Segoe UI", 12);
+            Font = new Font("NanyUI", 12);
         }
     }
 }

@@ -128,7 +128,7 @@ namespace NanyUICore
             this.Height = 50;
             SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint | ControlStyles.ResizeRedraw | ControlStyles.OptimizedDoubleBuffer | ControlStyles.SupportsTransparentBackColor, true);
             DoubleBuffered = true;
-            Font = new Font("Segoe UI", 12);
+            Font = new Font("NanyUI", 12);
 
             if (!Controls.Contains(_baseTextBox) && !DesignMode)
             {

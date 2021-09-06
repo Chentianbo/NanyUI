@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFControlComponent", "WFCon
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NanyUICore3.1", "NanyUI\NanyUICore3.1.csproj", "{08A6FB26-BC53-46AA-90A0-0341E1262BF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{CE2E9EEF-ACFB-4FF9-9D6D-FEA8465328CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{CE2E9EEF-ACFB-4FF9-9D6D-FEA8465328CB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NanyUI", "NannyUI\NanyUI.csproj", "{B2FC5BEA-76D4-498E-B3D3-9C3149E22172}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "document", "document", "{B5C62C72-9738-45C5-8EBF-C1A9FF1F8AB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -102,7 +102,7 @@ namespace NanyUI
         {
             SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint | ControlStyles.ResizeRedraw | ControlStyles.OptimizedDoubleBuffer, true);
             DoubleBuffered = true;
-            Font = new Font("Segoe UI", 12F);
+            Font = new Font("NanyUI", 12F);
             SizeMode = TabSizeMode.Fixed;
             ItemSize = new Size(120, 40);
         }

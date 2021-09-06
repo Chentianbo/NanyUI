@@ -101,7 +101,7 @@ namespace WFControlCompent
             // 
             // nI_ProgressBar1
             // 
-            this.nI_ProgressBar1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.nI_ProgressBar1.Font = new System.Drawing.Font("NanyUI", 10F);
             this.nI_ProgressBar1.IsError = false;
             this.nI_ProgressBar1.Location = new System.Drawing.Point(295, 193);
             this.nI_ProgressBar1.Name = "nI_ProgressBar1";
@@ -114,7 +114,7 @@ namespace WFControlCompent
             // nI_Button1
             // 
             this.nI_Button1.ButtonType = NanyUI.ButtonType.Primary;
-            this.nI_Button1.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.nI_Button1.Font = new System.Drawing.Font("NanyUI", 12F);
             this.nI_Button1.Location = new System.Drawing.Point(285, 99);
             this.nI_Button1.Name = "nI_Button1";
             this.nI_Button1.Size = new System.Drawing.Size(75, 23);
